@@ -31,10 +31,10 @@ export default function Dashboard() {
                 </div>
             </nav>
             <div className="row">
-                <div className="col-10">
+                <div className="col-9">
                     <Outlet />
                 </div>
-                <div className="col-2">
+                <div className="col-3">
                     <h1>Sidebar</h1>
                 </div>
             </div>

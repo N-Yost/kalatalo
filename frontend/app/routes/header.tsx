@@ -1,5 +1,6 @@
 import type { Route } from "./+types/home";
 import { Link, NavLink, Outlet } from "react-router";
+import  Sidebar  from "../sidebar/sidebar";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -31,11 +32,11 @@ export default function Dashboard() {
                 </div>
             </nav>
             <div className="row">
-                <div className="col-9">
+                <div className="col-8">
                     <Outlet />
                 </div>
-                <div className="col-3">
-                    <h1>Sidebar</h1>
+                <div className="col-4">
+                    <Sidebar />
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ export function Welcome() {
   return (
     <div className="container ms-5 my-4 pe-5 text-start">
       <div className="row mb-5">
-        <div className="row">
+        <div className="row mb-2">
           <h2>Dr. Katherine Alatalo</h2>
         </div>
         <div className="row">
@@ -19,7 +19,7 @@ I graduated with my Ph.D. in astrophysics in 2012 from UC - Berkeley with Prof. 
         </div>
       </div>
       <div className="row mb-5">
-        <div className="row">
+        <div className="row mb-2">
           <h2 className="title">Research Interests</h2>
         </div>
         <div className="row">
@@ -38,7 +38,7 @@ Previously I worked a bit on optical follow-up to gamma-ray bursts primarily wit
         </div>
       </div>
       <div className="row">
-        <div className="row">
+        <div className="row mb-2">
           <h2>Other Interests</h2>
         </div>
         <div className="row">

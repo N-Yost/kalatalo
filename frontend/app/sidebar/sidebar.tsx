@@ -3,28 +3,28 @@ const Sidebar = () => {
         <div className="container">
             <div className="row">
                 <div className="row">
-                    <h2>Contact Me</h2>
+                    <h3>Contact Me</h3>
                     <hr className="solid" />
                 </div>
-                <div className="row">
+                <div className="row ms-1">
                     <div className="col">
-                        <h3>Email:</h3>
+                        <h5>Email:</h5>
                     </div>
                     <div className="col">
                         <p>kalatalo@ipac.caltech.edu</p>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row ms-1">
                     <div className="col">
-                        <h3>Phone:</h3>
+                        <h5>Phone:</h5>
                     </div>
                     <div className="col">
                         <p>+1 (626) 720-4483</p>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row ms-1">
                     <div className="col">
-                        <h3>Address:</h3>
+                        <h5>Address:</h5>
                     </div>
                     <div className="col">
                         <p>
@@ -36,14 +36,36 @@ const Sidebar = () => {
             </div>
             <div className="row">
                 <div className="row">
-                    <h2>Research</h2>
+                    <h3>Research</h3>
                     <hr className="solid" />
+                </div>
+                <div className="row mb-3 ms-1">
+                    <li className="sList">
+                        <a href="#" className="sLink">Shocked gas in galaxies</a>
+                    </li>
+                    <li className="sList">
+                        <a href="#" className="sLink">NGC 1266</a>
+                    </li>
+                    <li className="sList">
+                        <a href="#" className="sLink">ATLAS3D</a>
+                    </li>
+                    <li className="sList">
+                        <a href="#" className="sLink">ROTSE</a>
+                    </li>
                 </div>
             </div>
             <div className="row">
                 <div className="row">
-                    <h2>Links</h2>
+                    <h3>Links</h3>
                     <hr className="solid" />
+                </div>
+                <div className="row ms-1">
+                    <li className="sList">
+                        <a href="#" className="sLink">Photography</a>
+                    </li>
+                    <li className="sList">
+                        <a href="#" className="sLink">Fellowships</a>
+                    </li>
                 </div>
             </div>
         </div>

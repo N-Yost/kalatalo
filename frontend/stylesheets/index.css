@@ -183,11 +183,16 @@ body {
   font-size: 14px;
 }
 
-h1, h2, h3 {
+h1, h2 {
   margin: 0;
   padding: 0;
   font-family: "Nova Mono", cursive;
   font-weight: normal;
+  color: #2E9F13;
+}
+
+h3, h4, h5 {
+  font-family: "Nova Mono", cursive;
 }
 
 p {
@@ -209,6 +214,18 @@ img.alignright {
 
 img.aligncenter {
   margin: 0px auto;
+}
+
+.sLink {
+  color: black;
+  text-decoration: none;
+}
+
+.sList {
+  background: url(images/img01.jpg) no-repeat left 12px;
+  list-style-type: none;
+  padding-left: 20px;
+  line-height: 35px;
 }
 
 /*# sourceMappingURL=index.css.map */

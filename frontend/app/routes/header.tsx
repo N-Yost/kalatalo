@@ -9,8 +9,6 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-const current = () => {}
-
 export default function Dashboard() {
     return (
         <div className="container app">

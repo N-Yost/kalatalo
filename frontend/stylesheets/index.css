@@ -195,11 +195,11 @@ h3, h4, h5 {
   font-family: "Nova Mono", cursive;
 }
 
-p {
+p, li, .p {
   color: #808080;
 }
 
-img.border {
+img.cBorder {
   border: 6px solid #EEE7DF;
 }
 
@@ -226,6 +226,14 @@ img.aligncenter {
   list-style-type: none;
   padding-left: 20px;
   line-height: 35px;
+}
+
+.sLine {
+  border: none;
+  height: 1px;
+  color: black;
+  background-color: black;
+  opacity: 75%;
 }
 
 /*# sourceMappingURL=index.css.map */

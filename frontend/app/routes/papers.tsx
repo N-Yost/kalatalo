@@ -1,3 +1,5 @@
+import { Papers } from "../papers/papers";
+
 export default function Home() {
-  return <h1>Papers</h1>;
-}
+  return <Papers />;
+};

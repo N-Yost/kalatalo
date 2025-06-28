@@ -1,3 +1,5 @@
+import { Me } from "../me/me";
+
 export default function Home() {
-  return <h1>Me</h1>;
-}
+  return <Me />;
+};

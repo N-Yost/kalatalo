@@ -19,7 +19,7 @@ const Sidebar = () => {
                         <h5>Phone:</h5>
                     </div>
                     <div className="col">
-                        <p>+1 (626) 720-4483</p>
+                        <p>+1 (626) 720-5555</p>
                     </div>
                 </div>
                 <div className="row ms-1">
@@ -28,8 +28,8 @@ const Sidebar = () => {
                     </div>
                     <div className="col">
                         <p>
-                            707 S. Wilson Ave.
-                            Pasadena, CA 91125
+                            700 S. Main Ave.
+                            Temporary, CA 91125
                         </p>
                     </div>
                 </div>

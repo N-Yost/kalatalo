@@ -1,3 +1,5 @@
+import { Research } from "../research/research";
+
 export default function Home() {
-  return <h1>Research</h1>;
-}
+  return <Research />;
+};

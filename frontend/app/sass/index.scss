@@ -1,0 +1,87 @@
+
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+// 6. Include any other optional stylesheet partials as desired
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+// @import "../node_modules/bootstrap/scss/utilities/api";
+
+// 8. Add additional custom code here
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(images/img04.jpg) repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nova Mono', cursive;
+	font-weight: normal;
+	color: #2E9F13;
+}
+
+h3, h4, h5 {
+	font-family: 'Nova Mono', cursive;
+}
+
+p, li, .p {
+    color: #808080;
+}
+
+img.cBorder {
+	border: 6px solid #EEE7DF;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+.sLink {
+	color: black;
+	text-decoration: none;
+}
+
+.sList {
+	background: url(images/img01.jpg) no-repeat left 12px;
+	list-style-type: none;
+	padding-left: 20px;
+	line-height: 35px;
+}
+
+.sLine {
+	border: none;
+	height: 1px;
+	color:black;
+	background-color: black;
+	opacity: 75%;
+}

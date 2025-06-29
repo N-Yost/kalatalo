@@ -1,3 +1,7 @@
+import katey from "../../images/katey.png";
+import ngc from "../../images/ngc1266.png";
+import vlapeople from "../../images/vlapeople.jpg";
+
 export function Welcome() {
   return (
     <div className="container ms-5 my-4 pe-5">
@@ -7,7 +11,7 @@ export function Welcome() {
         </div>
         <div className="row">
           <div className="col-4">
-            <img className="cBorder" src="images/katey.png" height="192" width="212" />
+            <img className="cBorder" src={katey} height="192" width="212" />
           </div>
           <div className="col-8">
             <p>
@@ -23,7 +27,7 @@ export function Welcome() {
         </div>
         <div className="row">
           <div className="col-4">
-            <img className="cBorder" src="images/ngc1266.png" height="192" width="212" />
+            <img className="cBorder" src={ngc} height="192" width="212" />
           </div>
           <div className="col-8">
             <p>
@@ -40,7 +44,7 @@ export function Welcome() {
         </div>
         <div className="row">
           <div className="col-4">
-            <img className="cBorder" src="images/vlapeople.jpg" height="192" width="212" />
+            <img className="cBorder" src={vlapeople} height="192" width="212" />
           </div>
           <div className="col-8">
             <p>

@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "http://N-Yost.github.io/kalatalo",
+  "homepage": "http://N-Yost.github.io/kalatalo/",
   "private": true,
   "type": "module",
   "scripts": {

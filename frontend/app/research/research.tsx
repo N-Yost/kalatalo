@@ -1,3 +1,6 @@
+import a3dgals from "../../images/a3dgals.png";
+import n1226 from "../../images/n1266r_out.jpg";
+
 export function Research() {
     return (
         <div className="container ms-5 my-4 pe-5">
@@ -23,7 +26,7 @@ export function Research() {
                 <div className="row">
                     <div className="row mb-2">
                         <div className="col-9">
-                            <img className="cBorder" src="images/a3dgals.png" height="362" width="591" />
+                            <img className="cBorder" src={a3dgals} height="362" width="591" />
                         </div>
                     </div>
                     <div className="row">
@@ -41,7 +44,7 @@ export function Research() {
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <img className="cBorder" src="images/n1266r_out.jpg" height="334" width="369" />
+                        <img className="cBorder" src={n1226} height="334" width="369" />
                     </div>
                     <div className="col-5">
                         <p>

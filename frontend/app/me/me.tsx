@@ -1,3 +1,8 @@
+import katey_milkshake from "../../images/katey_milkshake.jpg";
+import katey_ocean from "../../images/katey_ocean.jpg";
+import obie from "../../images/obie.jpg";
+import herschel from "../../images/herschel_staff_20.jpg";
+
 export function Me() {
   return (
     <div className="container ms-5 my-4 pe-5">
@@ -7,7 +12,7 @@ export function Me() {
             </div>
             <div className="row">
                 <div className="col-4">
-                    <img className="cBorder" src="images/katey_milkshake.jpg" width="240" />
+                    <img className="cBorder" src={katey_milkshake} width="240" />
                 </div>
                 <div className="col-8">
                     <p>
@@ -23,7 +28,7 @@ export function Me() {
             </div>
             <div className="row">
                 <div className="col-4">
-                    <img className="cBorder" src="images/katey_ocean.jpg" height="320" width="180" />
+                    <img className="cBorder" src={katey_ocean} height="320" width="180" />
                 </div>
                 <div className="col-8">
                     <p>
@@ -39,7 +44,7 @@ export function Me() {
             </div>
             <div className="row">
                 <div className="col-4">
-                    <img className="cBorder" src="images/obie.jpg" height="320" width="239" />
+                    <img className="cBorder" src={obie} height="320" width="239" />
                 </div>
                 <div className="col-8">
                     <p>
@@ -55,7 +60,7 @@ export function Me() {
             </div>
             <div className="row">
                 <div className="col-4">
-                    <img className="cBorder" src="images/herschel_staff_20.jpg" width="220" />
+                    <img className="cBorder" src={herschel} width="220" />
                 </div>
                 <div className="col-8">
                     <p>

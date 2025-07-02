@@ -186,17 +186,18 @@ body {
 h1, h2 {
   margin: 0;
   padding: 0;
-  font-family: "Nova Mono", cursive;
+  font-family: "Century Gothic Paneuropean", cursive;
   font-weight: normal;
   color: #2E9F13;
 }
 
 h3, h4, h5 {
-  font-family: "Nova Mono", cursive;
+  font-family: "Century Gothic Paneuropean", cursive;
 }
 
 p, li, .p {
   color: #808080;
+  word-wrap: break-word;
 }
 
 img.cBorder {
